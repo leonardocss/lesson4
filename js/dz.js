@@ -1,16 +1,14 @@
 let money,
-				name,
-				price,
-				time;
-				function start() {
-						money = prompt('Ваш бюджет?', '');
-
-						while (isNaN(money) || money == '' || money == null) {
-							money = prompt('Ваш бюджет?', '');
-						} 
-
-						name = prompt('Название вашего интернет магазина?', '').toUpperCase();
-						time = 21;
+	name,
+	price,
+	time;
+	function start() {
+		money = prompt('Ваш бюджет?', '');
+		while (isNaN(money) || money == '' || money == null) {
+			money = prompt('Ваш бюджет?', '');
+		} 
+		name = prompt('Название вашего интернет магазина?', '').toUpperCase();
+		time = 21;
 }
 
 // start();
